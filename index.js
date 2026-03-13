@@ -2,7 +2,7 @@ const express = require('express');
 
 const servidor = express();
 
-servidor.get("/Gustavo67") (req,res) => {
+servidor.get("/Gustavo67", (req,res) => {
 })
 
 servidor.listen(3000,() => {
